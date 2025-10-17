@@ -6,9 +6,6 @@
 def q1(numero1:float, numero2:float):
 	return numero1 - numero2
 
-print (q1(5.0,2.0))
-print (q1(42.0,42.0))
-print (q1(3.3,17.5))
 # ===== Fim: q1_v1.py =====
 
 # ===== Início: q4_v1.py =====
@@ -31,8 +28,6 @@ def vogais_pares(str1:str, str2:str):
     # Se os contadores forem iguais, retorna str1 (conforme sua lógica original)
     return str1 if count1 >= count2 else str2
         
-print(vogais_pares('casamento','processo'))
-print(vogais_pares('manufacturer','headquarters'))
 # ===== Fim: q4_v1.py =====
 
 # ===== Início: q5_v1.py =====
@@ -55,8 +50,6 @@ def vogais_pares(str1:str, str2:str):
     # Se os contadores forem iguais, retorna str1 (conforme sua lógica original)
     return str1 if count1 >= count2 else str2
         
-print(vogais_pares('casamento','processo'))
-print(vogais_pares('manufacturer','headquarters'))
 # ===== Fim: q5_v1.py =====
 
 # ===== Início: exercicios/LucasSLL/ex2.py =====
@@ -71,7 +64,6 @@ def paridade(a: int, b: int) -> str:
 if __name__ == "__main__":
     a = int(input("Digite um número inteiro: "))
     b = int(input("Digite outro número inteiro: "))
-    print(paridade(a, b))
 # ===== Fim: exercicios/LucasSLL/ex2.py =====
 
 # ===== Início: exercicios/LucasSLL/ex6.py =====
